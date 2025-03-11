@@ -1,0 +1,38 @@
+/* Define global color variables */
+:root {
+	--global-color-1: #800000;  /* Dark red */
+}
+.shadow {
+	color: var(--global-color-1);  /* Makes "75th" red */
+	text-shadow: 2px 2px 4px #800000;  /* Adds a red shadow effect */
+	font-weight: bold;
+}
+
+
+/* the styles for the elements */
+body {
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 100%;
+}
+
+/* the styles for the header */
+header img {
+	float: left;
+}
+
+/* the styles for the main content */
+main {
+	clear: left;
+}
+main h1 {
+	font-size: 150%;
+}
+main h2 {
+	color: var(--global-color-1);  /* Corrected variable usage */
+	font-size: 130%;
+}
+main h3 {
+	font-size: 105%;
+}
+
+/* the styles for the footer */
